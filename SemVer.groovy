@@ -1,7 +1,8 @@
 def getTagversion (String oldtagVersion)
 {
     oldtagVersion = oldtagVersion.substring(1)
-    println oldtagVersion
+    
+println oldtagVersion
     def versionParts = oldtagVersion.tokenize('.')
     println versionParts
     major = versionParts[0].toInteger()
